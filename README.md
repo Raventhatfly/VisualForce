@@ -10,8 +10,21 @@ Edward Adelson, Jiajun Wu, Robert D. Howe, Yilun Du
 Harvard University &middot; MIT &middot;
 University of Pennsylvania &middot; Stanford University
 
-[Project page](https://visual-force.github.io/) &middot;
-[Paper (PDF)](https://visual-force.github.io/static/papers/paper.pdf)
+<a href="https://visual-force.github.io/">
+  <img alt="Project page"
+       src="https://img.shields.io/badge/Project_Page-visual--force.github.io-1f6feb?style=for-the-badge&logo=githubpages&logoColor=white"></a>
+<a href="https://visual-force.github.io/static/papers/paper.pdf">
+  <img alt="Paper (PDF)"
+       src="https://img.shields.io/badge/Paper-PDF-b31b1b?style=for-the-badge&logo=latex&logoColor=white"></a>
+<a href="LICENSE">
+  <img alt="License: MIT"
+       src="https://img.shields.io/badge/License-MIT-3fb950?style=for-the-badge&logo=opensourceinitiative&logoColor=white"></a>
+
+<a href="https://visual-force.github.io/#teaser-title">
+  <img alt="Teaser: force-aware manipulation from visual gripper deformation. Click to play on the project page."
+       src="assets/teaser.jpg" width="100%"></a>
+
+<sub>Click the image to play the teaser video on the project page.</sub>
 
 Force-aware manipulation usually depends on dedicated force or tactile sensors.
 We instead predict force from the visible deformation of a compliant Fin Ray
@@ -37,6 +50,7 @@ third_party/forcelens_dp/   diffusion-policy code and task launchers
 third_party/sam2/           SAM2 source submodule
 docs/                       focused training and inference notes
 tests/                      repository tests
+assets/                     README media
 requirements.txt            force-estimator dependencies
 ```
 
